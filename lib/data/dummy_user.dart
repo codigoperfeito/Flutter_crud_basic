@@ -5,15 +5,20 @@ const dummyUsers = {
       name: 'Maria',
       email: 'Maria@alunos.com',
       avatarURL:
-          'https://avatars.dicebear.com/v2/female/49073a838136bb89c8d3740a085972d0.svg'),
+          'https://cdn.iconscout.com/icon/free/png-256/avatar-373-456325.png'),
   '2': const User(
       name: 'Felicia',
       email: 'felicia.barrett@example.com',
       avatarURL:
-          'https://avatars.dicebear.com/v2/female/8fb1bf1f8b36a484dd9c220f16ff96b0.svg'),
+          'https://www.pngarts.com/files/3/Avatar-PNG-High-Quality-Image.png'),
   '3': const User(
       name: 'ramon',
       email: 'ramon.sanchez@example.com',
       avatarURL:
-          'https://avatars.dicebear.com/v2/female/423a84095c0376fa44e3402c9fa872d6.svg'),
+          'https://cdn.iconscout.com/icon/free/png-256/avatar-380-456332.png'),
+  '4': const User(
+      name: 'Wesley',
+      email: 'Obilhao@gmail.com',
+      avatarURL:
+          'https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg'),
 };
