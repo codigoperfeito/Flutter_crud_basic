@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crud/models/user.dart';
 
+// ignore: must_be_immutable
 class UserTile extends StatelessWidget {
   UserTile(this.user, {Key? key}) : super(key: key);
   User user;
@@ -23,7 +24,7 @@ class UserTile extends StatelessWidget {
             IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.edit),
-                color: Color.fromARGB(255, 44, 35, 35)),
+                color: const Color.fromARGB(255, 44, 35, 35)),
             IconButton(
                 onPressed: () {},
                 icon: const Icon(Icons.delete),
