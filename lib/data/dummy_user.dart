@@ -12,7 +12,7 @@ const dummyUsers = {
       avatarURL:
           'https://www.pngarts.com/files/3/Avatar-PNG-High-Quality-Image.png'),
   '3': User(
-      name: 'ramon',
+      name: 'Ramon',
       email: 'ramon.sanchez@example.com',
       avatarURL:
           'https://cdn.iconscout.com/icon/free/png-256/avatar-380-456332.png'),
