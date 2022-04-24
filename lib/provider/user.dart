@@ -41,7 +41,8 @@ class UserProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  void remover(i) {
-    print(_item.values.elementAt(i));
+  void remover(User user) {
+    _item.remove(user.id);
+    notifyListeners();
   }
 }

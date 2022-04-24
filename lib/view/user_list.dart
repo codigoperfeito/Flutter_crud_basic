@@ -16,7 +16,7 @@ class UserList extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              users.remover(0);
+              users.remover(users.byIndex(0));
             },
             icon: const Icon(Icons.add),
           )
