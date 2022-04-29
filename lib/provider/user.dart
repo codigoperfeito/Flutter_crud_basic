@@ -33,6 +33,7 @@ class UserProvider with ChangeNotifier {
               avatarURL: user.avatarURL),
         );
       }else{
+      // criando Id aleatório
       final id = Random().nextDouble().toString();
       //add items
       _item.putIfAbsent(
@@ -47,7 +48,7 @@ class UserProvider with ChangeNotifier {
     }
       notifyListeners();
   }
-
+  //removento um usuarios
   void remover(User user) {
     _item.remove(user.id);
     notifyListeners();

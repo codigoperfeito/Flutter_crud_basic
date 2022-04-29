@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_crud/components/list_tile.dart';
 import 'package:flutter_crud/models/user.dart';
 import 'package:flutter_crud/provider/user.dart';
+import 'package:flutter_crud/routes/app_routes.dart';
 import 'package:provider/provider.dart';
 
 class UserList extends StatelessWidget {
@@ -17,12 +18,8 @@ class UserList extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-              users.put(
-                const User(
-                    id: '2',
-                    name: 'jonas',
-                    email: 'jonas@gm.net',
-                    avatarURL: ''),
+              Navigator.of(context).pushNamed(
+                AppRoutes.userForm
               );
             },
             icon: const Icon(Icons.add),
