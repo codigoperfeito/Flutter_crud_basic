@@ -22,23 +22,30 @@ class UserProvider with ChangeNotifier {
 
   void put(User user) {
     //alterar
-    if (user.id != null &&
-        user.id!.trim().isNotEmpty &&
-        _item.containsKey(user.id)) {
-      _item.update(user.id!, (_) => user);
+      if ( user.id.trim().isNotEmpty &&
+          _item.containsKey(user.id)) {
+        _item.update(
+          user.id,
+          (_) => User(
+              id: user.id,
+              name: user.name,
+              email: user.email,
+              avatarURL: user.avatarURL),
+        );
+      }else{
+      final id = Random().nextDouble().toString();
+      //add items
+      _item.putIfAbsent(
+        id,
+        () => User(
+          id: id,
+          name: user.name,
+          email: user.email,
+          avatarURL: user.avatarURL,
+        ),
+      );
     }
-
-    final id = Random().nextDouble().toString();
-    //add items
-    _item.putIfAbsent(
-      id,
-      () => User(
-        name: id,
-        email: user.email,
-        avatarURL: user.avatarURL,
-      ),
-    );
-    notifyListeners();
+      notifyListeners();
   }
 
   void remover(User user) {
