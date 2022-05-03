@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crud/components/list_tile.dart';
-import 'package:flutter_crud/models/user.dart';
 import 'package:flutter_crud/provider/user.dart';
 import 'package:flutter_crud/routes/app_routes.dart';
 import 'package:provider/provider.dart';
