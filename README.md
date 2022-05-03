@@ -1,16 +1,9 @@
-# flutter_crud
+# Primeiro projeto teste de crud
 
-A new Flutter project.
+<img src="https://github.com/codigoperfeito/Flutter_crud_basic/blob/main/images/list_login.png" width="250"> <img src="https://github.com/codigoperfeito/Flutter_crud_basic/blob/main/images/form_user.png" width="260" height="500">
 
-## Getting Started
+*esse projeto foi feito para aprendizado*
 
-This project is a starting point for a Flutter application.
+## Caso queira o video o link é [clique aqui](https://youtu.be/ViahqKZzZ7Y)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**agradeço desde já ao cod3r que deu essa aulona, está desatualizada pois é antes do null-safe mas eu consegui pegar tudo.**
